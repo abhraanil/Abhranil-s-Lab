@@ -1,38 +1,57 @@
 *{
-    margin: 0;
-    padding: 0;
+    background-color: black;
 }
-html{
-    scroll-behavior: smooth;
+#b1{
+    font-size: 60px;
 }
-#butt{
-    background-color: #ffb903;
-    font-weight: 900;
+#b2{
+    color: rgb(204, 204, 204);
 }
-#butt:hover{
-    background-color: #926901;
-}
-#yt{
-    position:fixed;
-    right: 3vw;
-    top:80vh;
-    font-size:30px;
-    color: rgba(255, 0, 0, 0.769);
-}
-header{
-    width: 100%;
-    height: 50px;
-    position: fixed;
-    top:0px;
-    left: 0px;
-    background:rgba(173, 173, 173, 0.231);
-}
-footer{
-    background:rgba(210, 209, 209, 0.459);
-}
-button{
-    background-color: aqua;
-}
-.pad{
+#hpm{
     padding-top: 20px;
+}
+#but1{
+    background-color: #D62A2A;
+    border-radius: 20px;
+    width: 200px;
+    
+}
+#ca1{
+    margin-bottom: 20px;
+}
+#but1:hover{
+
+    background-color: #d1d1d1;
+    color: black;
+    transition: 300ms;
+}
+#but1:active{
+    background-color: #f05050;
+    transition: 300ms;
+    color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 600px) {
+    #b1{
+        font-size: 43px;
+    }
+    #b2{
+        font-size: 25px;
+    }
+    #mc{
+        font-size: 12px;
+    }
+    #but1:hover{
+        background-color: #D62A2A;
+        color: rgb(255, 255, 255);
+    }
+    #but1:active{
+        background-color: #c0c0c0;
+        transition: 300ms;
+        color: rgb(7, 7, 7);
+    }
+    #hpm{
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    
 }
