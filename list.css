@@ -3,7 +3,7 @@ body{
 
 }
 header{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     position: sticky;
     top: 20px;
 }
