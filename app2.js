@@ -6,7 +6,7 @@ const butf = document.getElementById('but');
 
 function f1() {
     if (emaildata.find((email) => email === emailf.value)) {
-        window.location.href = 'https://www.abhranil.site';
+        window.location.href = 'list.html';
     }else if (emailf.value === '') {}
     
     else {
